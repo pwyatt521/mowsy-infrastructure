@@ -1,0 +1,15 @@
+aws_region         = "us-east-2"
+vpc_cidr           = "10.0.0.0/16"
+availability_zones = ["us-east-2a", "us-east-2b"]
+
+db_instance_class   = "db.t3.micro"
+lambda_memory_size  = 256
+
+jwt_secret             = "your-jwt-secret-here"
+stripe_secret_key      = "sk_test_your-stripe-secret-key"
+stripe_publishable_key = "pk_test_your-stripe-publishable-key"
+stripe_webhook_secret  = "whsec_your-webhook-secret"
+geocodio_api_key       = "your-geocodio-api-key"
+sendgrid_api_key       = "your-sendgrid-api-key"
+
+alert_email_addresses = ["admin@mowsy.com"]
